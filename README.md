@@ -20,6 +20,8 @@ $ python -c 'import pickle; pickle.load(open("getpasswd.pickle"))'
 
 ### Web Framework and pickle
 
+[pickleを利用した任意のコード実行とPython Web Framework](http://mrtc0.hateblo.jp/entry/2015/12/08/230840)
+
 ```
 $ cd python/bottle
 $ python server.py
@@ -48,5 +50,6 @@ You can exploit this vulnerability in the following frameworks
 * Pylons
 * Pyramid
 * Django
+
 
 
